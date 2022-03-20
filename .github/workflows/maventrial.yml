@@ -27,6 +27,3 @@ jobs:
 
     - name: compile
       run: mvn compile
-
-      env:
-        GITHUB_TOKEN: ${{ github.token }}
